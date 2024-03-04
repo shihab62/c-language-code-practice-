@@ -1,0 +1,53 @@
+#include <stdio.h>
+
+
+int main (){
+int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
+
+scanf ("%d %d %d %d %d %d %d %d %d %d",&num1,&num2,&num3,&num4,&num5,&num6,&num7,&num8,&num9,&num10);
+
+
+int largest=num1;
+
+
+if (num2>largest)
+    largest=num2;
+
+
+
+    else if (num3>largest)
+    largest=num3;
+
+
+    else if (num4>largest)
+    largest=num4;
+
+
+    else if (num5>largest)
+    largest=num5;
+
+
+    else if (num6>largest)
+    largest=num6;
+
+
+    else if (num7>largest)
+    largest=num7;
+
+
+    else if (num8>largest)
+    largest=num8;
+
+    else if (num9>largest)
+    largest=num9;
+
+
+     else
+    largest=num10;
+
+
+    printf("%d  is lRGEST",largest);
+    return 0;
+
+
+    }
