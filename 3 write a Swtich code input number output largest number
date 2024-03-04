@@ -1,0 +1,93 @@
+#include <stdio.h>
+
+
+int main (){
+int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
+
+scanf ("%d %d %d %d %d %d %d %d %d %d",&num1,&num2,&num3,&num4,&num5,&num6,&num7,&num8,&num9,&num10);
+
+
+int largest=num1;
+
+switch (1){
+
+
+
+
+case 1:
+    if (num2 > largest)
+                largest = num2;
+    printf("%d is largest",largest);
+        break;
+
+case 2:
+         if (num3 > largest)
+                largest = num3;
+    printf("%d is largest",largest);
+        break;
+
+
+
+
+case 3:
+        if (num4 > largest)
+                largest = num4;
+    printf("%d is largest",largest);
+        break;
+
+
+
+case 4:
+        if (num5 > largest)
+                largest = num5;
+    printf("%d is largest",largest);
+    break;
+
+
+
+case 5:
+       if (num6 > largest)
+                largest = num6;
+    printf("%d is largest",largest);
+    break;
+
+
+case 6:
+        if (num7 > largest)
+                largest = num7;
+    printf("%d is largest",largest);
+    break;
+
+
+
+case 7:
+         if (num8 > largest)
+                largest = num8;
+    printf("%d is largest",largest);
+    break;
+
+
+case 8:
+         if (num9 > largest)
+                largest = num9;
+    printf("%d is largest",largest);
+  break;
+
+
+
+case 9:
+          if (num10 > largest)
+                largest = num10;
+    printf("%d is largest",largest);
+   break;
+
+
+
+
+default:
+ printf("%d is largest",largest);
+
+break;
+}
+    return 0;}
+    
